@@ -1,7 +1,18 @@
 import java.util.Scanner;
 
+import javax.swing.JFrame;
+
 public class currencyChange {
     public static void main(String[] args) {
+
+        frames2currency inicio1 = new frames2currency();
+        inicio1.setVisible(true);
+        inicio1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        inicio1.setTitle("CONVERSOR DE MONEDA");
+        
+
+        
+       
         
         double cop, usd, eur, yen, pound, won;
 
