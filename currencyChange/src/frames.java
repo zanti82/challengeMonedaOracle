@@ -80,7 +80,7 @@ public class frames extends JFrame{
                      System.out.println("ok WONS");
                 }
                      change= c * change;
-                    valorField2.setText(String.valueOf(change));
+                    valorField2.setText(String.valueOf(((change)*100)/100));
                     System.out.println(change);
                 
                 /*if(currtx.getText()== "EUR"){
